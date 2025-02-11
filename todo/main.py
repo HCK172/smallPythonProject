@@ -68,7 +68,7 @@ while True:
         try:
             num = int(user_action[8:])
             done.append(todos[num-1])
-            write_done('todo/done.txt', done)
+            functions.write_done('todo/done.txt', done)
 
             todos.pop(num-1) 
             print('Yayy! you finished something today!')
