@@ -1,11 +1,4 @@
 run 20 mile
 practice coding
 call IRS
-read 10 books
-take out the trash
-go for a walk
-meal prep
-clean the kitchen
-clip my nails
-fold laundry
-code sql
+
