@@ -1,4 +1,3 @@
-run 20 mile
-practice coding
-call IRS
-
+ run 2 miles
+read 5 books
+take out the grabbage can
