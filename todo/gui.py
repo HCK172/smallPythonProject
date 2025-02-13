@@ -2,10 +2,13 @@
 import functions 
 import PySimpleGUI as sg
 import time
+import os
 
 #sg.theme_previewer(); theme_name_list = sg.theme_list() print(theme_name_list)
 ## layout expect list of lists
-
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", 'w') as file: 
+        pass
 
 ### create instance of the element
 sg.theme("LightBlue3") #Sandy Peach
@@ -81,13 +84,10 @@ while True:
                 window['todo'].update(value='')
             except:
                 sg.popup("Please select an item first", font=("Helvetica", 20)) 
-
-
         case 'Exit':
            break
         case sg.WIN_CLOSED:
             break
-
 window.close()
 
 #close the program 
