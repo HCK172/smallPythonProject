@@ -1,5 +1,5 @@
-F1 = "todo/todo.txt"
-F2 = "todo/done.txt"
+F1 = "todo/pysimplegui/todo.txt"
+F2 = "todo/pysimplegui/done.txt"
 
 def get_todos(filepath=F1): 
     """Read a text file and return the list of to-do items"""
